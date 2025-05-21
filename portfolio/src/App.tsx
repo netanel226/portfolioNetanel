@@ -128,7 +128,7 @@ const personalInfo = {
   name: 'נתנאל איזנקוט',
   title: 'מפתח Full Stack & טכנולוגיות למידה',
   subtitle: 'יוצר פתרונות טכנולוגיים חדשניים',
-  profileImage: '/profile.jpg', // Add your profile image to the public folder
+  profileImage: process.env.PUBLIC_URL + '/profile.jpg', // Add your profile image to the public folder
 };
 
 const aboutData = {

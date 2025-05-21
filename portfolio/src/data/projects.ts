@@ -13,7 +13,7 @@ export const projectSections: Section[] = [
         media: [
           {
             type: 'image',
-            url: '/media/images/SantaFitGame.png',
+            url: process.env.PUBLIC_URL + '/media/images/SantaFitGame.png',
             alt: 'SantaFit Game Screenshot'
           }
         ],
@@ -35,7 +35,7 @@ export const projectSections: Section[] = [
         media: [
           {
             type: 'image',
-            url: '/media/images/gameWeb.png',
+            url: process.env.PUBLIC_URL + '/media/images/gameWeb.png',
             alt: 'SANTAFIT interface preview'
           }
         ],
@@ -57,7 +57,7 @@ export const projectSections: Section[] = [
         media: [
           {
             type: 'image',
-            url: '/media/images/HadrachaChat.png',
+            url: process.env.PUBLIC_URL + '/media/images/HadrachaChat.png',
             alt: 'Chat Guide interface'
           }
         ],
@@ -73,7 +73,7 @@ export const projectSections: Section[] = [
         media: [
           {
             type: 'image',
-            url: '/media/images/accsesibot.png',
+            url: process.env.PUBLIC_URL + '/media/images/accsesibot.png',
             alt: 'AccessiBot dashboard'
           }
         ],
@@ -89,7 +89,7 @@ export const projectSections: Section[] = [
         media: [
           {
             type: 'image',
-            url: '/media/images/probot-preview.jpg',
+            url: process.env.PUBLIC_URL + '/media/images/probot-preview.jpg',
             alt: 'ProBot interface'
           }
         ],
@@ -111,7 +111,7 @@ export const projectSections: Section[] = [
         media: [
           {
             type: 'image',
-            url: '/media/images/devmentorAi.png',
+            url: process.env.PUBLIC_URL + '/media/images/devmentorAi.png',
             alt: 'Amdocs UX design'
           }
         ],

@@ -35,10 +35,10 @@ const Organizations: React.FC<OrganizationsProps> = ({ organizations }) => {
           
           <Grid container spacing={4} justifyContent="center">
             {[
-              { name: 'HIT', logo: '/media/images/hitLogo.jpg', link: 'https://www.hit.ac.il' },
-              { name: 'Hoshen', logo: '/media/images/hoshenLogo.png', link: 'https://www.hoshen.org' },
-              { name: 'IDF', logo: '/media/images/idfLogo.png', link: 'https://www.idf.il' },
-              { name: 'Tikshov', logo: '/media/images/tikshovLogo.png', link: 'https://www.tikshov.co.il' }
+              { name: 'HIT', logo: process.env.PUBLIC_URL + '/media/images/hitLogo.jpg', link: 'https://www.hit.ac.il' },
+              { name: 'Hoshen', logo: process.env.PUBLIC_URL + '/media/images/hoshenLogo.png', link: 'https://www.hoshen.org' },
+              { name: 'IDF', logo: process.env.PUBLIC_URL + '/media/images/idfLogo.png', link: 'https://www.idf.il' },
+              { name: 'Tikshov', logo: process.env.PUBLIC_URL + '/media/images/tikshovLogo.png', link: 'https://www.tikshov.co.il' }
             ].map((org, index) => (
               <Grid item xs={6} sm={4} md={3} key={org.name}>
                 <motion.div

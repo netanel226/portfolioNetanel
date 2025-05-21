@@ -58,7 +58,7 @@ const Hero: React.FC<HeroProps> = ({ name, title, subtitle, profileImage }) => {
                 }}
               >
                 <Avatar
-                  src="/media/images/profilepic.jpeg"
+                  src={process.env.PUBLIC_URL + '/media/images/profilepic.jpeg'}
                   alt={name}
                   sx={{
                     width: { xs: 200, sm: 250, md: 300, lg: 350 },
