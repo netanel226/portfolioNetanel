@@ -20,6 +20,7 @@ const CanvasContainer = styled(Box)({
   height: '100%',
   zIndex: 0,
   opacity: 0.8,
+  pointerEvents: 'none'
 });
 
 const ContentContainer = styled(Container)({

@@ -11,7 +11,8 @@ import Contact from './pages/Contact';
 
 const MainBox = styled(Box)({
   minHeight: '100vh',
-  position: 'relative'
+  position: 'relative',
+  overflow: 'visible'
 });
 
 const App: React.FC = () => {

@@ -3,6 +3,7 @@ import { Container, Typography, TextField, Button } from '@mui/material';
 import { motion } from 'framer-motion';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import PhoneIcon from '@mui/icons-material/Phone';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Contact: React.FC = () => {
   return (
@@ -131,6 +132,27 @@ const Contact: React.FC = () => {
                 <PhoneIcon style={{ color: '#00e6ff', marginLeft: 8 }} />
                 <span dir="ltr">+972-54-2262242</span>
               </div>
+              <Button
+                href="https://wa.me/972542262242"
+                target="_blank"
+                rel="noopener noreferrer"
+                startIcon={<WhatsAppIcon />}
+                style={{
+                  marginTop: 8,
+                  fontWeight: 700,
+                  fontSize: '1.1rem',
+                  borderRadius: 16,
+                  background: 'linear-gradient(90deg, #25D366 0%, #128C7E 100%)',
+                  color: 'white',
+                  boxShadow: '0 0 16px 4px #25D36688',
+                  transition: 'box-shadow 0.3s',
+                  textShadow: '0 2px 8px #000',
+                }}
+                onMouseOver={e => (e.currentTarget.style.boxShadow = '0 0 32px 8px #25D366cc')}
+                onMouseOut={e => (e.currentTarget.style.boxShadow = '0 0 16px 4px #25D36688')}
+              >
+                שלח הודעה בוואטסאפ
+              </Button>
             </div>
           </div>
         </motion.div>

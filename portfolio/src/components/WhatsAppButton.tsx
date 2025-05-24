@@ -8,10 +8,13 @@ const fabStyles: SxProps<Theme> = {
   '&:hover': {
     backgroundColor: '#128C7E',
   },
+  boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
+  width: 56,
+  height: 56,
 };
 
 const WhatsAppButton: React.FC = () => {
-  const phoneNumber = '972XXXXXXXXX'; // Replace with your actual phone number
+  const phoneNumber = '972542262242'; // Replace with your actual phone number
   const message = 'שלום, אני מעוניין/ת לקבל מידע נוסף על השירותים שלך.';
 
   const handleClick = () => {
@@ -20,7 +23,7 @@ const WhatsAppButton: React.FC = () => {
   };
 
   return (
-    <Tooltip title="צור קשר בוואטסאפ">
+    <Tooltip title="צור קשר בוואטסאפ" placement="top">
       <motion.div
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
@@ -28,7 +31,10 @@ const WhatsAppButton: React.FC = () => {
           position: 'fixed',
           bottom: 16,
           right: 16,
-          zIndex: 1000,
+          zIndex: 9999,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
         }}
       >
         <Fab
