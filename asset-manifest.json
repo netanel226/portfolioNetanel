@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolioNetanel/static/css/main.b7b7eb75.css",
-    "main.js": "/portfolioNetanel/static/js/main.2d3a4221.js",
+    "main.js": "/portfolioNetanel/static/js/main.747112c2.js",
     "index.html": "/portfolioNetanel/index.html",
     "main.b7b7eb75.css.map": "/portfolioNetanel/static/css/main.b7b7eb75.css.map",
-    "main.2d3a4221.js.map": "/portfolioNetanel/static/js/main.2d3a4221.js.map"
+    "main.747112c2.js.map": "/portfolioNetanel/static/js/main.747112c2.js.map"
   },
   "entrypoints": [
     "static/css/main.b7b7eb75.css",
-    "static/js/main.2d3a4221.js"
+    "static/js/main.747112c2.js"
   ]
 }
